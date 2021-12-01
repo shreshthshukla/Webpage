@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shreshth's Web Page</title>
+
+        <meta name="description" content="UI Designed by Shreshth | Hested by Github Pages">
+
+        <link rel="icon" href="Man1.jpg">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!-- Header Start -->
+        <header class="container-main-headrr" id="abt">
+            <div class="container-main-headrr-intro">
+            <h1>SHRESHTH SHUKLA</h1>
+            <p>Web Developer & Designer</p>
+            </div>
+
+             <div class="effect-wrap" id="kkr">
+            <div class="effect effect-1">
+            </div>
+            <div class="effect effect-2">
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div>
+            </div>
+            <div class="effect effect-3">
+            </div>
+            <div class="effect effect-4">
+            </div>
+            <div class="effect effect-5">
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div><div></div><div></div>
+                <div></div>
+            </div>
+        </div>
+
+            <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+              </svg>
+        </header>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <section class="conta-about" id="about" style="padding: top 10em;">
+        <div class="conta-about-container reveal">
+               <h1>About Us</h1>
+               <p>Shreshth, is a Intermediate Coder / Web Designer And Developer from Chennai, India.
+                   <br>
+                   HTML, CSS, JAVASCRIPT, and P5.JS
+               </p>
+        </div>       
+        <div class="conta-about-moreabt reveal">
+            <h1>Journey</h1>
+            <p>Shreshth, started his Coding Journey in August, 2020. He started learning Coding with Whitehat-JR and had completed 58 classes with
+                Whitehat-JR.
+            </p>
+        </div>
+        <div class="conta-about-whatdone reveal">
+            <h1>What Had He Done Till Now?</h1>
+            <p>Practicing and Experimenting.
+                <br>
+                He is eager to learn new Frameworks and Languages that are needed to build one of the fascinating web
+            </p>
+        </div>
+        </section>
+
+        <section class="aboutz" id="abs" style="padding: top 10em;">
+        
+        <div class="aboutz-pros reveal">
+            <h2>Here's few of his Popular Projects</h2>
+        </div>   
+            <div class="aboutz-pros-1 reveal">
+                <h3><a href="https://shreshthshukla.github.io/Stone-Paper-Scissor/" rel="noreferrer" target="_blank">AmongUs- Stone, Paper & Scissor Game</a></h3>
+                <p>This was his first very popular game. This Game got more than 100 likes on Whitehat-JR Community.
+                    <br>
+                    It took about 2-3 Weeks to make this Responsive Game. It went online on-around 10 September, 2021.
+                </p> 
+            </div>
+            <div class="aboutz-pros-2 reveal">
+                <h3><a href="https://studio.code.org/projects/gamelab/RWNpvv7uYrTa5jSJHHh3sOu0bOOGTuBPN3Y8I4VGBG4">Bricks Blast Game</a></h3>
+                <p>This Game was one of his Popular Projects. It was is first Self-Created Game created on Code.org.
+                    This project was showcased in WhitehatJR's community, which earned over thousands of views and likes.
+                    This project took approximately 2 weeks to complete.
+                </p>
+            </div>
+            <div class="aboutz-pros-3 reveal">
+                <h3><a href="https://shreshthshukla.github.io/Origami-web/">Origami Website</a></h3>
+                <p>This Website was a part of one of the Whitehat-JR Projects.
+                    <br>
+                    It took around 1 week to make this website.
+                </p>
+        </div>
+        </section>  
+        
+        <!-- About End -->
+        <!-- Footer Start -->
+        <footer class="end-footer">
+            <div class="end-footer-contact">
+                <h2>Contact</h2>
+                <br><br>
+                <p>Find him <a href="https://github.com/shreshthshukla" rel="noreferrer" target="_blank">on Github!</a></p>
+            </div>
+            <div class="end-address">
+                <p><a href="#abt" class="end-footer-btt">^ Go Back to Top ^</a></p>         
+                <br><br>
+                <address>Site designed and developed by : Shreshth</address>
+                <address>Hosted by : <a href="https://github.com/" rel="noreferrer" target="_blank">Github - Pages</a></address>
+                <address>Started on: 1 December, 2021</address>
+                <br><br>
+                <address>Color scheme : Dark Monaco / Graphite Blue - Gradient</address>
+                <address>HTML5 and CSS3</address>
+            </div>
+            <div class="copyright">
+                <h4>© Copyright Shreshth. All Rights Reserved.</h4>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Javascript -->
+        <script  type="text/Javascript">
+        window.addEventListener("scroll", reveal)
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+              var windowHeight = window.innerHeight;
+              var elementTop = reveals[i].getBoundingClientRect().top;
+              var elementVisible = 100;
+              if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+              } else {
+                reveals[i].classList.remove("active");
+              }
+            }
+          }
+        </script>
+        <!-- Javascript -->
+        
+    </body>
+</html>
