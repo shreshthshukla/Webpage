@@ -41,10 +41,7 @@ body{
 
 .conta-about{ 
     padding: 100px; 
-    /* height: 720px; */
     word-wrap: break-word; 
-    /* border-radius: 10px;  */
-    /* box-shadow: 1px 1px rgb(0, 0, 0); */
     background: url(Bob.png) no-repeat center center fixed;
     background-size: cover;  
 }
@@ -160,8 +157,6 @@ body{
     color: rgb(196, 196, 196);
     letter-spacing: 0.1rem;
 }
-
-
 
 .aboutz-pros-2{
     margin-top: 50px;
